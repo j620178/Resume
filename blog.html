@@ -10,8 +10,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link href="./assets/images/favicon.png" rel="icon" type="image/png">
     <!-- Generated: 2019-04-04 16:55:45 +0200 -->
     <title>Pony Chang Resume</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,18 +26,14 @@
     <link href="./assets/css/resume.css" rel="stylesheet" />
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC|Merriweather+Sans|Lobster" rel="stylesheet">
-    <!-- Timeline -->
-    <link href="./assets/css/vertical-timeline.css" rel="stylesheet" />
-    <!-- animate.css -->
-    <link href="./assets/css/animate.css" rel="stylesheet" />
   </head>
-  <body class="">
+  <body>
     <div class="page">
       <div class="flex-fill">
         <div class="header">
           <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="./index.html" style="font-family: Lobster;font-size:1.5em;">Resume</a>
+                <a class="navbar-brand" href="./index.html" style="font-family: Lobster;font-size:1.5em;"><img src="./assets/images/favicon.png" class="header-brand-img" alt="tabler logo">Resume</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -61,25 +56,72 @@
           <div class="container">
             <div class="page-header">
               <h1 class="page-title">
-                Portfolio
+                Experience
               </h1>
             </div>
             <div class="row row-cards row-deck">
-              <div class="col-sm-6 col-xl-3">
+              <div class="col-md-6">
                 <div class="card">
-                  <a href="#"><img class="card-img-top" src="./assets/images/Portfolio/wot.png" alt="And this isn&#39;t my nose. This is a false one."></a>
+                  <a><img class="card-img-top" src="./assets/images/Portfolio/coaSurvey.png" alt="現地調查作業​管理"></a>
                   <div class="card-body d-flex flex-column">
-                    <h4><a href="#">作物現地調查</a></h4>
-                    <div class="text-muted">結合手機GPS與相機功能，耗費約4個月約時間，約100位工作人員參與，完成蒐集全雲林70萬張相片、8萬公頃(約等於2.5個台北市面積)農地作物調查資訊。</div>
+                    <div>
+                      <h4 class="projectTitle"><a>現地調查作業​管理</a><span class="tag tag-azure">Web</span><span class="tag tag-green">Android</span><span class="tag tag-gray">iOS</span></h4>
+                    </div>
+                    <div class="text-muted">結合手機GPS、陀螺儀與相機功能，耗費約3個月約時間，約100位工作人員參與，完成蒐集全雲林70萬張相片、8萬公頃(約是2.5個台北市面積)農地作物調查資訊。</div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-xl-3">
+              <div class="col-md-6">
                 <div class="card">
-                  <a href="#"><img class="card-img-top" src="./assets/images/Portfolio/wot.png" alt="Well, I didn&#39;t vote for you."></a>
+                  <a href="https://wot.epa.gov.tw/" target="_blank"><img class="card-img-top" src="./assets/images/Portfolio/wot.png" alt="空氣網 WoT"></a>
                   <div class="card-body d-flex flex-column">
-                    <h4><a href="#">空氣網 WoT</a></h4>
-                    <div class="text-muted">蒐集全台超過3000台裝置PM2.5數據，結合風場、污染源等分析，以網頁動態展示三日內任一時間共約430萬筆感測資料。</div>
+                    <h4 class="projectTitle"><a href="https://wot.epa.gov.tw/" target="_blank">空氣網 WoT</a><span class="tag tag-azure">Web</span></h4>
+                    <div class="text-muted">蒐集全台超過3000台裝置PM2.5數據，結合風場、污染源等環境資訊進行分析，以網頁動態展示三日內任一時間約430萬筆感測資料，掌握污染擴散情形。</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <a><img class="card-img-top" src="./assets/images/Portfolio/afaSurvey.png" alt="農作物種植面積調查"></a>
+                  <div class="card-body d-flex flex-column">
+                    <h4 class="projectTitle"><a>農作物種植面積調查</a><span class="tag tag-green">Android</span><span class="tag tag-gray">iOS</span></h4>
+                    <div class="text-muted">提供全台365個鄉鎮公所於天然災害救助發生時，進行勘查作業執行。可於APP內直接下載民眾申報資料，APP支援導航現勘、拍照，完成後可直接上傳完成行政作業。</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <a><img class="card-img-top" src="./assets/images/Portfolio/ilepb.png" alt="宜蘭縣污染源管理"></a>
+                  <div class="card-body d-flex flex-column">
+                    <h4 class="projectTitle"><a>宜蘭縣污染源管理</a><span class="tag tag-azure">Web</span><span class="tag tag-gray">iOS</span></h4>
+                    <div class="text-muted">管理宜蘭縣內各式污染源資料，並結合民眾陳情稽查作業，報案中心完成報案後，資訊自動透過APP通知稽查人員，稽查人員亦可於APP完成稽查資料輸入、上傳，簡化紙本作業流程。</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <a href="https://tssurgo.tari.gov.tw/Tssurgo/" target="_blank"><img class="card-img-top" src="./assets/images/Portfolio/tssurgo.png" alt="土壤資料供應查詢平台"></a>
+                  <div class="card-body d-flex flex-column">
+                    <h4 class="projectTitle"><a href="https://npgis.cpami.gov.tw//public/Eco-Trip/" target="_blank">土壤資料供應查詢平台</a><span class="tag tag-azure">Web</span></h4>
+                    <div class="text-muted">蒐集全台最完整之土壤資料庫，包含文件、圖資、報告等內容。提供使用者快速搜尋，並結合圖台動態下載土壤空間資料。</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <a href="https://npgis.cpami.gov.tw//public/Eco-Trip/" target="_blank"><img class="card-img-top" src="./assets/images/Portfolio/Eco-Trip.png" alt="國家公園-生態旅遊尋寶地圖"></a>
+                  <div class="card-body d-flex flex-column">
+                    <h4 class="projectTitle"><a href="https://npgis.cpami.gov.tw//public/Eco-Trip/" target="_blank">國家公園-生態旅遊尋寶地圖</a><span class="tag tag-azure">Web</span></h4>
+                    <div class="text-muted">透過地點或物種進行旅遊探索，從季節、生態系、分佈、景點等面向，推薦遊客建議之國家公園行程，並結合既有物種資料庫完整旅遊體驗。</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <a><img class="card-img-top" src="./assets/images/Portfolio/tcepb.png" alt="廢食用油及廢棄物e化管理" target="_blank"></a>
+                  <div class="card-body d-flex flex-column">
+                    <h4 class="projectTitle"><a>廢食用油及廢棄物e化管理</a><span class="tag tag-azure">Web</span><span class="tag tag-green">Android</span></h4>
+                    <div class="text-muted">業務執行人員透過行動裝置進行業務表單填寫與拍照，並可直接於APP內提供業者簽名，完成後可直接上傳並寫入資料庫，e化作業加速行政作業流程。</div>
                   </div>
                 </div>
               </div>
@@ -92,7 +134,7 @@
         <div class="container">
           <div class="row align-items-center" style="text-align: right;">
             <div style="padding:50px 0px;margin: auto;">
-              <h3 style="font-weight: bolder;color: #467fcf;">"Venture outside your comfort zone. The rewards are worth it."</h3>
+              <h3 style="font-weight: bolder;color: #6574cd;">"Venture outside your comfort zone. The rewards are worth it."</h3>
               <small class="text-muted"> - Rapunzel, Tangled</small>
             </div>
           </div>

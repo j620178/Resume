@@ -116,3 +116,7 @@ body {
 .cd-timeline-content p {
   margin: 1em 0 0 0;
 }
+
+.projectTitle > span{
+  margin: 3px;
+} 
