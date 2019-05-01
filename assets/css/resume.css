@@ -32,8 +32,13 @@ body {
   text-align: center;
 }
 
-.title > h5{
-  padding-bottom: 10px;
+@media (max-width: 765px) {
+  .title > h5{
+    padding-top: 30px;
+  }
+  .title:first-child > h5{
+    padding-top: 0px;
+  }
 }
 
 .heading{
